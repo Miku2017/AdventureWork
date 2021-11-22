@@ -60,5 +60,9 @@
   <ItemGroup>
     <Build Include="Location_Tbl.sql" />
     <Build Include="Room_Tbl.sql" />
+    <Build Include="Bed_Tbl.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Demo_DatabaseProject.refactorlog" />
   </ItemGroup>
 </Project>
