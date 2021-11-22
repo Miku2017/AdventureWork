@@ -1,2 +1,1 @@
-# AdventureWork
-Adventure Work Database Project
+Demo Database Project
