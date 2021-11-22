@@ -3,6 +3,6 @@
     [Bed_Id] TINYINT NOT NULL , 
     [BedCode] NCHAR(10) NULL,
     [Room_ID] TINYINT NOT NULL,
-    [CreatedBy] NVARCHAR(100) DEFAULT SUSER_SNAME,
+    [CreatedBy] NVARCHAR(100) DEFAULT USENAME(),
     Constraint PK_Bed_Bed_Id Primary Key ([Bed_Id])
 )
