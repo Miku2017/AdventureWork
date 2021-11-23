@@ -65,4 +65,7 @@
   <ItemGroup>
     <RefactorLog Include="Demo_DatabaseProject.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="MergeStatement.sql" />
+  </ItemGroup>
 </Project>
