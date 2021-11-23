@@ -18,12 +18,22 @@ Create Table dbo.Employee_T
  Empname     varchar(25) Not Null ,
  StartDate   datetime2 Null,
  EndtDate    datetime2  Null,
- createdby   varchar(50) Default suser_sname(),
- Createdon   varchar(50) Default SYSDATETIME(),
- Modifyby    varchar(50) Null,
- Modifiedon  datetime2 Null,
+ -- createdby   varchar(50) Default suser_sname(),
+ -- Createdon   varchar(50) Default SYSDATETIME(),
+ -- Modifyby    varchar(50) Null, 
+-- Modifiedon  datetime2 Null,
  Constraint Pk_Employee_T_EmpId Primary Key (EmpId)
 );
 
 Select * from Employee_S
 Select * from Employee_T
+
+-- Write Mrge Statement
+Insert into Employee_T (Empcode,Empname,StartDate,EndtDate,createdby,Createdon)
+Select * From 
+   (
+
+
+
+
+   ) as Mrg
